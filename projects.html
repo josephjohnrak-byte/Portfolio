@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Joseph Rakotonandrasana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/projects.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">JJR</a>
+      <button class="nav-toggle" id="navToggle">☰</button>
+      <div class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="publications.html">Publications</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>My Projects</h1>
+    <p class="header-subtitle">Sustainable solutions for community health and resilience</p>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <div class="projects-container">
+      
+      <!-- Project 1 -->
+       
+      <div class="project-card" data-aos="fade-up">
+        <div class="project-icon">🌾</div>
+        <div class="project-content">
+          <span class="project-badge">Nutrition</span>
+          <h3>Nutrition Mix for Schools</h3>
+          <p>Creating a local nutrition mix for rural schools using maize, beans, peanuts, and cassava to fight malnutrition among children.</p>
+          <div class="project-stats">
+            <span><strong>10,000+</strong> Beneficiaries</span>
+            <span><strong>Boeny</strong> Region</span>
+          </div>
+          <button class="btn-primary open-modal" data-modal="modal1">
+          <!-- button class="open-modal" data-modal="modal1">View Details</button -->
+            View Details →
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-icon">💧</div>
+        <div class="project-content">
+          <span class="project-badge water">Water Safety</span>
+          <h3>Ceramic Water Filter Initiative</h3>
+          <p>Developing ceramic water filters to provide safe drinking water to rural communities with environmental sustainability practices.</p>
+          <div class="project-stats">
+            <span><strong>200</strong> Households</span>
+            <span><strong>Boeny</strong> Region</span>
+          </div>
+          <button class="btn-primary open-modal" data-modal="modal2">
+            View Details →
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-icon">🗳️</div>
+        <div class="project-content">
+          <span class="project-badge civic">Civic Engagement</span>
+          <h3>Youth Awareness Program</h3>
+          <p>Raising awareness among youth about civic participation in local elections through workshops, campaigns, and social media.</p>
+          <div class="project-stats">
+            <span><strong>500+</strong> Community Members</span>
+            <span><strong>4</strong> Communes</span>
+          </div>
+          <button class="btn-primary open-modal" data-modal="modal3">
+            View Details →
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <!-- Modal1 -->
+
+  <div id="modal1" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon">🌾</div>
+        <h2>NutritionLab</h2>
+        <span class="modal-badge">Prototype in Development</span>      
+      </div>
+      <div class="modal-body">
+        <p class="modal-description">
+          NutritionLab is a prototype of a community nutrition laboratory currently in research and design phase. The project aims to develop an inclusive approach to address nutritional needs of different vulnerable groups: children, families, elderly people, and pregnant women.
+        </p>
+        
+        <div class="modal-section">
+          <h3>Key Objectives</h3>
+          <ul class="modal-list">
+            <li>Develop an accessible nutrition analysis system adapted to local context</li>
+            <li>Create fortified food production solutions for different target groups</li>
+            <li>Train local actors in nutritional screening and personalized counseling</li>
+            <li>Establish a monitoring and evaluation framework to measure nutritional impact</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h3>Target Groups</h3>
+          <div class="impact-grid">
+            <div class="impact-item">
+              <div class="impact-icon">👶</div>
+              <div class="impact-label">Children</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-icon">👨‍👩‍👧‍👦</div>
+              <div class="impact-label">Families</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-icon">👵</div>
+              <div class="impact-label">Elderly People</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-icon">🤰</div>
+              <div class="impact-label">Pregnant Women</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>Intervention Pillars</h3>
+          <div class="intervention-pillars">
+            <div class="pillar">
+              <h4>📊 Nutritional Analysis</h4>
+              <p>Screening, anthropometric assessment, personalized counseling</p>
+            </div>
+            <div class="pillar">
+              <h4>🍽️ Food Production</h4>
+              <p>Local processing, nutritional fortification, culinary training</p>
+            </div>
+            <div class="pillar">
+              <h4>📈 Monitoring & Evaluation</h4>
+              <p>Beneficiary tracking, impact indicators, applied research</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>Current Status</h3>
+          <div class="status-badges-container">
+            <span class="status-badge research">🔬 Research Phase</span>
+            <span class="status-badge design">📐 Design in Progress</span>
+            <span class="status-badge pending">⏳ Pending Implementation</span>
+          </div>
+          <p>The conceptual prototype is currently under development. The project is actively seeking technical partnerships and funding opportunities to move to the pilot phase.</p>
+        </div>
+
+        <div class="modal-section">
+          <h3>Vision & Potential</h3>
+          <p>NutritionLab represents an initiative with strong social potential, designed to be adaptable to school, community, and family contexts. The inclusive, evidence-based approach aims to create lasting impact on the nutritional health of vulnerable populations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon">💧</div>
+        <h2>Ceramic Water Filter Initiative</h2>
+        <span class="modal-badge water">Water Safety Project</span>
+      </div>
+      <div class="modal-body">
+        <p class="modal-description">
+          This initiative develops ceramic water filters to provide safe drinking water to rural communities. It combines environmental sustainability with water hygiene practices to ensure long-term health benefits.
+        </p>
+        
+        <div class="modal-section">
+          <h3>Key Objectives</h3>
+          <ul class="modal-list">
+            <li>Design and produce affordable ceramic water filters locally</li>
+            <li>Train communities on proper water treatment techniques</li>
+            <li>Reduce waterborne diseases in rural households</li>
+            <li>Promote sustainable water management practices</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h3>Project Impact</h3>
+          <div class="impact-grid">
+            <div class="impact-item">
+              <div class="impact-number">200</div>
+              <div class="impact-label">Households</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-number">1000+</div>
+              <div class="impact-label">People Served</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-number">Boeny</div>
+              <div class="impact-label">Region</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>Current Status</h3>
+          <div class="status-badge progress">Development Phase</div>
+          <p>Filter prototypes are being tested for efficiency and durability. Community training modules are being developed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon">🗳️</div>
+        <h2>Youth Awareness Program</h2>
+        <span class="modal-badge civic">Civic Engagement</span>
+      </div>
+      <div class="modal-body">
+        <p class="modal-description">
+          This initiative raises awareness among youth about civic participation in local elections through interactive workshops, community campaigns, and strategic social media communication.
+        </p>
+        
+        <div class="modal-section">
+          <h3>Key Objectives</h3>
+          <ul class="modal-list">
+            <li>Educate youth on democratic processes and voting rights</li>
+            <li>Organize workshops on civic responsibility and leadership</li>
+            <li>Launch social media campaigns to increase engagement</li>
+            <li>Build partnerships with local youth organizations</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h3>Project Impact</h3>
+          <div class="impact-grid">
+            <div class="impact-item">
+              <div class="impact-number">500+</div>
+              <div class="impact-label">Community Members Reached</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-number">4</div>
+              <div class="impact-label">Communes</div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-number">Boeny</div>
+              <div class="impact-label">Region</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>Current Status</h3>
+          <div class="status-badge proposal">Proposal Submitted</div>
+          <p>Project proposal has been submitted to partner organizations. Awaiting approval and funding allocation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 John Joseph Rakotonandrasana | Made with ❤️ from Madagascar</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
